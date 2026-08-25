@@ -1,0 +1,13 @@
+interface:
+  display_name: Text-First Exegesis
+  short_description: Text-first biblical exegesis with independent and frontier research
+    tracks.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
