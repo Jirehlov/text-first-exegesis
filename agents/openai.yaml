@@ -1,7 +1,7 @@
 interface:
   display_name: Text-First Exegesis
-  short_description: Text-first biblical exegesis with independent and frontier research
-    tracks.
+  short_description: Text-first exegesis with a low-trust AI diagnostic track and
+    a modernity-weighted frontier research track.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

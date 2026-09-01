@@ -1,172 +1,110 @@
 # Methodology Reference
 
-This file documents the philosophy behind `SKILL.md`. It is for explanation, auditing, and maintenance, not normal live exegesis.
+Use this file to explain, audit, or revise the method. Live exegesis should follow `SKILL.md` and load `frontier-search.md` only for Track B.
 
-## 1. Five-layer hierarchy
+## 0. Scope of the dual track
+
+The dual track applies to every contextual meaning claim about biblical language, including a single lexeme or clause. Prompt length does not determine methodological depth. Pure descriptive lookup (for example, morphology without interpretation) can remain single-step.
+
+Track A must be fixed before modern secondary scholarship is searched or consulted. This protects informational independence rather than merely changing the order of headings in the final prose. Intertexts and cross-book parallels may enter A only at the historical layer.
+
+## 1. Literary object
+
+The method uses an operational object rule instead of requiring every run to reconstruct a unique authorial completion moment.
+
+- **OT**: each `book x textual tradition` is a separate synchronic literary object. MT and LXX/Old Greek are normally studied in parallel; DSS or another tradition may be added when recoverable enough to support literary analysis.
+- **NT**: the NA/ECM initial text of each book is the synchronic literary object. Material judged secondary/post-compositional belongs to textual and transmission history rather than the initial-text literary corpus.
+
+The whole locked book is both the minimum and maximum synchronic literary object. Cross-book and cross-tradition evidence can illuminate textual history, composition, intertext, and reception; it does not become object-internal literary evidence.
+
+This rule deliberately separates two questions:
+1. **What object is being interpreted?** - fixed operationally before Track A.
+2. **What does that object mean?** - adjudicated through the five-layer hierarchy.
+
+The object stays fixed during a run. Formation history may explain how it arose; it does not substitute another object.
+
+## 2. Five-layer hierarchy
 
 **Textual facts > Literary facts > Historical facts > Existing exegetical viewpoints > Theology**
 
-The hierarchy is evidential, directional, and non-compensatory. Each higher layer constrains the possibility space available to lower layers. Later layers may refine, contextualize, or rank readings that remain compatible with earlier freezes, but they cannot overturn an earlier-layer result simply by accumulating more lower-layer evidence. If later evidence exposes a missed variable or likely error, reopen the relevant earlier layer and rerun it with evidence admissible to that layer. Lower-layer evidence may trigger the rerun; it does not become higher-layer evidence.
+The order is evidential, directional, and non-compensatory.
 
-### Textual facts
-Determine the wording under interpretation through textual criticism. Variant history does not decide the preferred interpretation by itself.
+### Textual
+Establish the wording and relevant variants of the declared object. Textual history can define what belongs to the object; it does not by itself settle interpretation.
 
-### Literary facts
-Treat the whole target literary work as the synchronic object. Local grammar matters, but a local unit may not define an interpretive world and then recruit the rest of the book as proof texts.
+### Literary
+Interpret the whole locked object through morphology, syntax, discourse/narrative progression, rhetoric, structure, participants, repeated constructions, and lexical networks. Keep lexical sense distinct from referent, verb meaning from event type, and quantifier meaning from discourse domain.
 
-Use morphology, syntax, discourse/narrative progression, rhetoric, structure, participants, lexical networks, repeated constructions, and retrospective clarification. Keep lexical sense distinct from referent, verb meaning from event type, and quantifier meaning from discourse domain.
+### Historical
+Use wider linguistic evidence, culture, society, archaeology, inscriptions, intertexts, other books/traditions, composition/redaction, and transmission. Historical evidence may discriminate among literary readings left open by Layer 2. If it exposes a missed literary variable, rerun Layer 2 with same-object literary evidence.
 
-If historical evidence establishes a separately circulated or separately received literary stage, that stage may become a distinct historical-literary object.
-
-### Historical facts
-Include wider linguistic usage, social/cultural setting, archaeology, inscriptions, source/redaction/compositional history, and cross-text/intertextual evidence. Other biblical books belong here when used as historical evidence.
-
-Recognition of an intertext does not automatically transfer the source text's referent, chronology, ontology, or theological function into the target work. Intertext recognition is a historical fact; referent/function transfer is a separate interpretive claim that must be established independently from the target work's literary evidence. A strong verbal echo can therefore coexist with literary redeployment.
+An intertext establishes historical relation or evocation. Identity of referent, chronology, ontology, or function requires separate support from the target object's literary evidence.
 
 ### Existing exegetical viewpoints
-Use scholarship to discover proposals, arguments, primary evidence, and research distribution. A scholar's authority, institution, venue, recency, or citation count has no evidential force by itself.
+Scholarship supplies proposals, arguments, primary-evidence leads, and information about the research field. Prestige, institution, publisher, series, recency, and citation count are not textual/literary/historical evidence. In Track B they may function as explicit **meta-epistemic priors** for ranking serious live proposals, especially when the project chooses between a newer revision and an older/traditional reading.
 
 ### Theology
-Canonical synthesis, biblical theology, systematic theology, doctrine, reception history, church judgment, and pastoral application are downstream activities. They may use exegesis but may not rewrite it.
+Canonical synthesis, biblical theology, systematic theology, doctrine, church judgment, reception, and pastoral application use the exegetical results downstream. They do not rewrite the historical-literary result.
 
-## 2. Exegetical object and objectivity
+## 3. Historical meaning and objectivity
 
-Historical meaning is the standard and goal, approached fallibly through public evidence and methods. Different confessional positions should in principle be mutually correctable.
+Historical meaning is the standard and goal, approached fallibly through public evidence and methods. Confessional positions remain open to correction by evidence admissible to the relevant layer.
 
-Canonical status is irrelevant to historical exegesis. Another book may illuminate the target as historical evidence but cannot become a canonical key that dictates the target's meaning.
+Canonical status can determine why a community studies a text, but canonical relations do not function as literary evidence inside another locked object.
 
-## 3. Why two tracks
+## 4. Why two tracks
 
-Track A preserves the model's independent reconstruction from layers 1-3. It is an exploratory AI product, useful diagnostically but epistemically weaker than a well-executed frontier review on difficult disputed questions. Its overall interpretive confidence should therefore remain provisional rather than high. Track B answers a different question: what are the strongest live scholarly options now, and what survives when they are re-evaluated under this method?
+The two tracks have deliberately unequal epistemic roles.
 
-The tracks are informationally asymmetric:
-- Track A may use layers 1-3 but not layer 4.
-- Track B investigates layer 4, then audits proposals against layers 1-3.
+**Track A** is an AI diagnostic experiment. It tests what the model can reconstruct from primary evidence before exposure to modern exegetical scholarship. Its output is intrinsically low-trust and reference-only. Even when A is coherent or confident, it is not the method's preferred exegetical advice. Its value is diagnostic: it exposes the model's independent strengths, blind spots, assumptions, and inferential failures.
 
-Neither track may use the other as evidence. Comparison occurs only after both freezes. At that point B should actively criticize A without retroactively rewriting it.
+**Track B** reconstructs and adversarially tests the current scholarly frontier through the same evidence hierarchy. It is the method's primary basis for actual exegetical recommendation and normally deserves substantially greater epistemic weight than A. B remains fallible and may remain unresolved when coverage or rebuttal burdens are unmet.
 
-## 4. Research discipline
+A and B are informationally asymmetric:
+- A cannot use B or modern exegetical conclusions as premises.
+- B cannot use A as evidence.
+- A may generate adversarial search targets for B, but never evidential weight.
+- Comparison occurs only after both are frozen.
 
-Avoid interpretation disguised as observation. A loaded translation can settle a disputed referent, event type, ontology, or chronology before analysis begins.
+Divergence between A and B is expected, especially in disputed interpretation. The method preserves that divergence rather than harmonizing it. When they conflict, B normally governs the user-facing exegetical recommendation, subject to B's own uncertainty and access limits. Agreement is descriptive and does not give B an extra evidential vote merely because A happened to converge.
 
-When the target interpretation depends on neighboring ambiguous expressions, treat those dependencies as unresolved and profile them independently across the whole book.
+This design turns A into a visible stress test of AI reasoning while protecting professional frontier arguments from being displaced by a shallower unaided reconstruction.
 
-When ranking rivals, prefer evidence that gives different expectations under the rivals. Shared predictions may establish common ground but cannot choose between them.
+## 5. Research discipline
 
-## 5. Frontier research is a mapping task
+Keep observation and interpretation separate. Loaded translations may prematurely settle disputed referents, event types, ontology, chronology, or discourse domains.
 
-A frontier answer should not be generated by collecting a few prestigious or recent sources. First map the **interpretive dispute**, then locate the strongest literature representing the live options.
+When a conclusion depends on another ambiguous expression, profile that dependency independently across the same locked object. Shared predictions establish common ground; discriminating evidence ranks rivals.
 
-Use a mandatory **coverage gate**, not an open-ended source count:
-1. target expression + exact passage;
-2. literary unit + interpretation/debate;
-3. each decisive clause, construction, or control variable + interpretation;
-4. the provisional leading B-model + challenge terms (alternative, reassessment, critique, revision, competing reading);
-5. recent technical commentaries, monographs, or surveys, followed by backward/forward citation chaining.
+A later layer may reveal that an earlier analysis omitted a variable. Correction occurs by rerunning the earlier layer with evidence proper to that layer, not by counting later evidence as if the hierarchy were a flat vote.
 
-The fourth route is adversarial by design: it searches for a serious countermodel without assuming in advance what that countermodel must be. Do not let A's conclusion define or prune B's search space. Complete all five routes before saying the field is concentrated or that no serious rival exists. Stop only when the gate is complete and further citation tracing is no longer revealing serious live models. Backward tracing may identify an older lineage, but a pre-cutoff work never counts as a frontier carrier; trace forward again until an eligible recent work adopts, revises, defends, or criticizes the proposal. A work is not genuinely mapped until its actual proposal has been recovered: thesis, target passage/unit, primary evidence, and decisive inference. Bibliographic discovery alone is insufficient.
+## 6. Frontier epistemology
 
+Track B is a mapping task before it is an adjudication task. Candidate discovery is intentionally **census-oriented**: within the 15-year frontier window, the method seeks recursive closure across direct searches, commentary catalogs, field syntheses, author bibliographies, publisher/series ecosystems, and citation networks before substantive pruning. Practical web/index limits may prevent literal completeness, so the method uses a two-round saturation rule and requires any unresolved access limit to be stated. The search protocol therefore separates:
 
-### Rolling frontier window
-Track B uses a strict rolling **15-year window for modern secondary scholarship**. Compute the cutoff as current year minus 15, inclusive. Thus in 2026 the frontier corpus begins in 2011. Primary texts, manuscripts, textual editions, lexical corpora, archaeology, and other first-order evidence are not subject to this cutoff.
+- **candidate recall** from later qualification;
+- **frontier status** from truth;
+- **author provenance/current uptake** from primary exegetical evidence;
+- **direct relevance** from adjacent prestige;
+- **method compatibility** from popularity, prestige, and recency;
+- **primary exegetical evidence** from **meta-epistemic priors** such as recency and preferred venue.
 
-Pre-cutoff scholarship does not count as current frontier evidence. Under this method, recent serious scholarship is the access point through which older research enters the present debate: if an old proposal is still alive, an eligible recent work should be adopting, revising, defending, or criticizing it. Represent the live proposal through that recent carrier. Older works may be consulted only as historical background when a recent eligible work makes them necessary, and they must not establish present consensus, distribution, or the target conclusion.
+The rolling 15-year window defines the current secondary-literature frontier. Older proposals remain relevant when recent eligible scholarship continues to adopt, revise, or contest them. Candidate count never functions as a stopping rule; discovery closes only after the defined census sweeps reach recursive saturation or a concrete access/indexing limit is recorded.
 
-### Proposal-recovery discipline
-When a major directly relevant scholar or work appears, do not infer the position from a title, review sentence, abstract, publisher page, or general reputation. Recover the argument itself from frontier-eligible material. If the newest book/commentary is inaccessible, use the author's other eligible recent publication, lecture, institutional repository copy, substantive recent reviews, and recent backward/forward citation chains. Do not fall back to pre-cutoff secondary scholarship to reconstruct a supposedly current position.
+The project deliberately adds a **modernity/revision prior** inside that frontier. Once proposals are directly relevant, method-compatible, and adequately grounded in Layers 1-3, recency and preferred scholarly provenance may affect the recommendation. A newer substantive revision from a preferred scholarly ecosystem receives a default advantage over an older/traditional reading when it survives the rebuttal burden. This is a declared methodological preference for current revision, not a claim that publication date itself proves truth.
 
-If this fails, label the item **position not recovered** and leave it out of claims about what the proposal actually says or whether the frontier has been adequately covered. A frontier map that knows a major name but not the scholar's current recoverable view is incomplete.
+Preferred signals include sustained specialist work with Cambridge, Oxford, Yale, Harvard, Edinburgh, or comparable presses; Hermeneia/EKK/IECOT as strong series priors; AYB as positive; and recent ICC volumes as positive when author provenance and direct relevance are strong. Other specialist presses such as Mohr Siebeck, Brill, T&T Clark/Bloomsbury, and De Gruyter can count positively when the work and author meet the same substantive standard. See `frontier-search.md` for operational rules.
 
-### Author provenance and discovery priors
+## 7. Rebuttal burden
 
-Do not equate a new technical commentary or prestigious series with the frontier. Frontier discovery is author- and network-sensitive. For each major directly relevant candidate, recover the author's research trajectory from current institutional profiles, CVs, publisher catalogues, and bibliography metadata. These sources establish **provenance**, not the truth of the exegesis.
+Track B should recover a major method-compatible proposal deeply enough to know its strongest same-object case and, when available, its answer to obvious counterevidence.
 
-Use two paths:
+A proposal is substantively defeated only by a stronger admissible same-layer case or a clear independently checkable Layer 1-3 error that survives the proposal's recent response. For a qualifying newer revision from the preferred scholarly ecosystem, the older/traditional model carries this rebuttal burden if it is to regain priority.
 
-1. **Established-frontier author path.** Require a sustained, field-relevant record of several substantial research books/monographs over time with leading university presses such as Cambridge, Oxford, Yale, Harvard, Edinburgh, or genuinely comparable academic presses. Do not count a single prestigious item, chapters, edited-volume contributions, textbooks, or general-audience books as sufficient by themselves.
-2. **Emerging-frontier proposal path.** A scholar without that established publication history may still introduce a live frontier proposal when frontier-eligible recent literature shows substantial uptake. Look for repeated adoption, revision, or serious criticism by established-frontier scholars or multiple high-level recent treatments. Label the proposal emerging/live without calling the author established-frontier.
+Track B should preserve real conflict between incompatible models. It should not manufacture a compromise merely because both remain live. If the newer revision survives the rebuttal burden, recommend it while reporting the older model as an alternative with its actual strengths. When no model earns priority even after the modernity/revision prior, report the frontier as unresolved.
 
-Commentary series are only **discovery priors**, never evidence or automatic frontier credentials:
-- **Hermeneia, EKK, IECOT**: strong positive prior for discovery because their editorial traditions are often compatible with this method; still audit each author and argument.
-- **AYB**: positive prior, but author-level verification is mandatory.
-- **ICC**: deliberately neutral/variable prior; recent publication in ICC does not establish frontier status.
-- **Other commentary series**: no assumed frontier status from the series name alone.
+This asymmetry is a declared research preference. Scholarly prestige and recency remain meta-epistemic priors rather than textual/literary/historical evidence.
 
-Monograph series, journals, and publishers can still reveal important work, but their labels do not replace author provenance or current uptake. Do not impose a rigid publisher-before-journal order. Prefer **directly relevant frontier-eligible research**, then mine its author background, bibliography, and current citation network. A directly relevant article can be more important for mapping the dispute than a prestigious but adjacent book.
+## 8. Consensus discipline
 
-
-### Discovery before provenance
-
-Track B separates **candidate recall** from **frontier qualification**. Author provenance, series reputation, and venue quality are evaluated only after candidates have been discovered; they must never shrink the initial search space. This prevents the search from missing important work whose title does not contain the target lemma or whose decisive proposal appears under a broader literary/compositional question.
-
-Use recent field-level handbooks, companions, and state-of-research volumes from leading university-press ecosystems as **frontier hubs**. Their editors and relevant contributors are researcher seeds: follow those names into target-passage, target-unit, and composition searches before deciding whether the individual scholar passes the established-frontier provenance gate. A hub identifies who must be checked; it does not make their interpretations correct.
-
-The discovery sweep must include a **composition blind-spot route** and a **domain-restricted scholarly-platform route** in addition to ordinary passage/unit searches. When one query misses a proposal, change the search level rather than concluding absence: lemma -> passage -> literary unit -> composition/literary history -> researcher network.
-
-### Multi-field source/proposal assessment
-
-Assess each serious proposal separately on:
-
-1. **Recency** — frontier-eligible inside the rolling window or not.
-2. **Author provenance** — established-frontier, not established, or not recovered.
-3. **Current uptake** — repeatedly adopted/revised/criticized by frontier-eligible high-level research, limited uptake, or unclear.
-4. **Direct relevance** — directly answers the disputed expression/unit/controlling argument, partly relevant, or merely adjacent/background.
-5. **Method compatibility** — compatible, partly compatible, or incompatible with the one-way order textual → literary → historical → exegetical → theological.
-
-Derive **frontier status** from these fields. Do not collapse them. Strong provenance means a proposal deserves serious recovery, not that it is correct. Current uptake can keep a proposal live even when its author is not established-frontier. A pre-cutoff work itself is not frontier evidence, although its proposal may remain live when frontier-eligible recent work still develops or contests it. **Direct relevance remains an admission gate for target-level claims.**
-
-### Method compatibility is an admissibility gate, not a ranking score
-
-Use method compatibility to detect backflow and category errors. Once two proposals both satisfy the directional order, do **not** rank one above the other merely because it appears "more compatible" with the method. The method constrains what counts as a legitimate argument; it does not make the model a superior exegete to scholars who already satisfy those constraints.
-
-### Professional-argument asymmetry and rebuttal burden
-
-Track A is intentionally an exploratory AI reconstruction. Track B may recover arguments built from substantially deeper linguistic, literary, historical, and bibliographic work. Therefore a method-compatible established-frontier or well-uptaken emerging proposal receives a **rebuttal burden**, not authority weight. The burden attaches to the recovered argument, not the scholar's prestige.
-
-Before Track B may reject or materially downgrade such a proposal, recover a steelman:
-1. its actual thesis and target unit;
-2. its strongest target-book literary evidence;
-3. the decisive construction, variable, or inferential hinge;
-4. how the author or recent defenders handle the most obvious apparent counterevidence;
-5. frontier-eligible direct critiques and, where recoverable, responses to those critiques.
-
-Apply the **no unrecovered objection rule**: an objection generated by the model is not decisive until the proposal's own treatment of that datum has been recovered or responsibly searched and found unavailable. Do not call an apparent counterexample fatal merely because it looks strong from A's shallower reconstruction.
-
-A method-compatible frontier proposal may be ranked below a rival only when either:
-- frontier-eligible, method-compatible scholarship directly rebuts the proposal's decisive primary-evidence argument with a stronger same-layer case; or
-- there is a clear, independently checkable first-three-layer error that does not depend on assuming the disputed interpretation (for example, a textual mistake, syntactic impossibility, or omitted controlling whole-book pattern), and recent defenders do not adequately answer it.
-
-If neither condition is met, report the method-compatible dispute as unresolved under this method. If A conflicts with an unrebutted, steelmanned frontier argument, lower confidence in A rather than letting A's independent reading defeat the professional argument. This is epistemic calibration, not an appeal to authority.
-
-### Method audit
-A view is methodologically suspect under this framework when its decisive inference depends on:
-- theology or doctrine determining what the target text may mean;
-- canonical synthesis functioning as literary evidence of the target work;
-- cross-book material controlling the literary layer rather than entering historically;
-- an interpretive conclusion being redescribed as textual/literary fact.
-
-Do not delete such a view from the frontier map. Report its actual status, identify the methodological backflow, remove that premise, and test the remaining primary-evidence case.
-
-### Ordered re-adjudication and non-reversal
-Recovering a proposal is not the same as accepting its own weighting of evidence. Decompose the proposal into textual, literary, historical, exegetical, and theological/canonical components, then rebuild the argument in hierarchical order.
-
-The literary freeze has real force. Historical evidence may:
-- contextualize a surviving literary model;
-- discriminate among models still open after literary analysis;
-- expose a missed literary question and thereby trigger a literary rerun.
-
-Historical evidence may **not** directly reverse a literary ranking by importing an external text's referent or function. If an intertext is strongly established but the target work's whole-book literary evidence supports redeployment, the historical conclusion is 'deliberate evocation/reuse,' not 'therefore identical referent/function.' To change the literary ranking, recover stronger target-book literary evidence and rerun that layer.
-
-The same-layer rule also governs Track B's criticism of Track A: scholarship may reveal a better literary argument that A missed, but the fact that scholarship supplies it does not raise its evidential level. A literary conclusion is corrected by literary evidence; a historical conclusion by historical evidence; theology never corrects exegesis by backflow.
-
-### Consensus discipline
-Do not call a proposal consensus from a few familiar sources or a recent publication. Check distribution across recent high-level treatments and serious alternatives. If distribution cannot be responsibly established, say that the field is divided or that consensus is uncertain.
-
-## 6. Frontier conclusion under this method
-
-Track B should distinguish three questions:
-- **What is genuinely live at the scholarly frontier?**
-- **Which live proposals are method-compatible after layered audit?**
-- **Has the recovered literature met the rebuttal burden strongly enough to rank those compatible proposals?**
-
-Do not force a winner when the third answer is no. In that case report the compatible frontier as genuinely unresolved, and use it to calibrate or criticize A rather than letting the model settle the dispute by its own shallower reading.
+A cluster of agreeing search results is not sufficient to establish consensus. Consensus claims require deliberate coverage of serious alternatives and evidence about current distribution. Track B does not require consensus before preferring a qualifying newer revision. When distribution is unclear, report the mapped positions and uncertainty while preserving the project's explicit ranking.
