@@ -33,6 +33,8 @@ Layer 2 rejects a genre-neutral natural-reading prior. Local grammar and ordinar
 
 Keep discourse order, internal unit chronology, unit opening/endpoint horizons, represented event order, and logical order distinct. Local sequence needs positive whole-book warrant before it controls event chronology. Intertexts belong to the historical layer and cannot substitute for target-book literary evidence.
 
+Layer 2 also distinguishes **represented addressee**, **text-encoded recipient position**, and **text-encoded response** from any proposed **historical recipient horizon(s)**. The first three are literary questions about what the locked text addresses, presupposes, and solicits; the last is a historical reconstruction and may be plural or underdetermined, especially in OT composition and transmission. Historical uncertainty about recipients does not erase literary recipient effects, and a represented/text-encoded addressee must not be silently historicized. Genre controls the recipient vocabulary; `implied reader` is not a universal label.
+
 ## 4. Track B research discipline
 
 Discovery is authority-neutral. Hermeneia receives mandatory visibility and B2 priority, while ordinary and opposing scholars must still be discoverable through text/problem searches, user-named researcher sweeps, and citation networks.

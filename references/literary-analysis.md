@@ -56,13 +56,52 @@ A chronology-dependent model must explain the whole-book map, not only local adj
 
 If a model's load-bearing move is effectively `later in discourse/report -> later in represented event time` without adequate same-object structural warrant, mark **`LAYER 2 SEQUENCE-CONFLATION FAILURE`**.
 
-## 5. Lexical restraint
+## 5. Recipient position and text-encoded response
+
+Layer 2 must ask what recipient position the locked text constructs and what response the discourse solicits. Use **recipient** as the genre-neutral category; use narrower terms only when the genre warrants them.
+
+Keep these distinct:
+
+- **represented addressee** - a person or group addressed inside the represented discourse or story world;
+- **text-encoded recipient position** - the knowledge, evaluations, loyalties, expectations, and participation role that the final-form text presupposes or constructs for its recipient;
+- **text-encoded response** - the belief, judgment, affect, allegiance, speech, worship, obedience, refusal, or action the discourse solicits;
+- **historical recipient horizon(s)** - a History-layer hypothesis about actual communities, stages, or social locations to which a recoverable form of the text may have been addressed or within which it may have been received;
+- **actual reception** - documented later reading or use, which belongs to reception history unless it is itself the historical question being studied.
+
+Do not equate these categories. A represented addressee does not establish the historical audience. A text-encoded recipient position remains a literary fact even when the historical recipient is disputed or unrecoverable.
+
+Use genre-appropriate terms when useful: narrative `narratee` / `implied reader`; prophecy `rhetorical addressee`; epistle `addressee`; wisdom `pupil/learner`; psalm `speaker/congregation/worshipper position`; law/covenant `covenant addressee`; apocalypse `hearer/vision recipient`. Do not force `implied reader` across genres.
+
+Run a compact recipient check for every contextual meaning claim; expand it when recipient effect is materially interpretive:
+
+1. Identify explicit and represented addressees and the speech/discourse situation.
+2. State what the locked text presupposes the recipient knows, recognizes, remembers, or can infer at this point.
+3. Track information asymmetry, evaluative positioning, focalization or address, affective cues, and relevant rhetorical or narrative devices.
+4. Classify the discourse's **illocutionary force** where recoverable: assertion, command, warning, promise, accusation, encouragement, invitation, proclamation, praise, lament, prayer, or another genre-appropriate act.
+5. State the minimal **text-encoded response** supported by the passage and whole-book form.
+6. Validate that response against the locked book's macrostructure and repeated recipient cues.
+
+Record these fields in the Layer 2 analysis. Expose them in the user-facing answer when they materially constrain the target claim or when the user asks about audience, rhetoric, pragmatics, or response:
+
+```text
+REPRESENTED ADDRESSEE(S):
+TEXT-ENCODED RECIPIENT POSITION:
+ILLOCUTIONARY / RHETORICAL FORCE:
+TEXT-ENCODED RESPONSE:
+WHOLE-BOOK RECIPIENT VALIDATION:
+```
+
+Historical recipient reconstruction belongs to Layer 3. There, test one or more **HISTORICAL RECIPIENT HORIZON(S)** using evidence proper to history: date, location, social setting, performance/reading practices, cultural repertoire, material environment, composition/redaction, transmission, and historically available intertexts. For OT, keep each `book x textual tradition` separate and allow multiple diachronic horizons; do not assume one recoverable original audience. For NT, historical addressees may be more explicit but remain subject to historical testing.
+
+If History exposes a missed Layer 2 recipient variable, rerun Layer 2 under the main skill rule instead of silently rewriting the literary result.
+
+## 6. Lexical restraint
 
 Keep lexical sense separate from contextual referent, discourse function, event type, ontology, and chronology. Repeated wording or the same lexeme can support semantic continuity; it does not by itself prove that two passages depict the same kind of event in the same temporal relation.
 
 Do not treat a literal, concrete, or sequential construal as intrinsically simpler. Simplicity is genre-relative: the preferred reading is the one that requires the fewest special exceptions to the work's established representational conventions and whole-book structure.
 
-## 6. Rival test
+## 7. Rival test
 
 Represent serious rivals as:
 
@@ -70,7 +109,7 @@ Represent serious rivals as:
 
 Locate the first substantive divergence and adjudicate there with evidence from that level or higher. Do not allow stronger syntax, intertext, theology, tradition, popularity, or intuitive surface directness to compensate for a failed higher literary relation.
 
-## 7. Required output for structure/chronology disputes
+## 8. Required output for structure/chronology disputes
 
 Show compactly:
 
@@ -81,6 +120,7 @@ UNIT RELATION:
 CHRONOLOGY WARRANT / RESET TEST:
 LOCAL DISCOURSE & SYNTAX:
 MINIMAL OBJECT-INTERNAL SENSE:
+RECIPIENT / PRAGMATIC EFFECT (when material):
 MODEL CONSEQUENCE:
 ```
 

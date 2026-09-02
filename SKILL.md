@@ -50,7 +50,7 @@ Run:
 2. **Literature** - apply `references/literary-analysis.md`.
 3. **Object-internal testing** - test decisive terms, relations, participants, and literary patterns within the same locked book/tradition.
 4. **Rivals** - when a real dispute exists, construct at least two serious object-internal models and identify the first discriminating evidence.
-5. **History** - add wider language, culture, archaeology, intertexts, other books/traditions, composition/redaction, and transmission. Intertexts are historical evidence; they do not decide the target book's literary relation by themselves.
+5. **History** - add wider language, culture, archaeology, intertexts, other books/traditions, composition/redaction, transmission, and any historically recoverable recipient horizon(s). Treat historical recipients as evidence-dependent hypotheses: allow multiple horizons or `UNDERDETERMINED`, and never infer a historical audience directly from a represented or text-encoded addressee. Intertexts are historical evidence; they do not decide the target book's literary relation by themselves.
 6. **Freeze A** - state conclusion, alternatives, unresolved questions, and a compact `TARGET INFERENCE CHAIN`.
 
 ## Track B - current-frontier reconstruction
