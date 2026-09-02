@@ -89,6 +89,18 @@ Source prestige contributes zero weight. Keep B1's winner, weaknesses, and unres
 
 ## 6. B2 - authority competition
 
+### Capability-contingent purpose
+
+Treat the Hermeneia-centered B2 regime, including its **explicit blacklists and provenance penalties**, as an **externally capability-contingent but internally mandatory AI safeguard regime**. Its design purpose is to bound errors caused by incomplete retrieval, incomplete frontier census, unreliable citation-network reconstruction, unstable model judgments about which scholarship is genuinely controlling at the research frontier, and retrieval environments in which digitally accessible or internally dense publication ecosystems can be mistaken for field-wide frontier standing.
+
+The capability rationale belongs to **skill design and maintenance**, not to runtime adjudication. The executing model has no authority to decide that its own capabilities are now sufficient. Self-reported confidence, apparent search saturation, large retrieval volume, citation-network density, successful recovery of many elite sources, perceived reasoning quality, or any other model-generated assessment of competence must never weaken, suspend, bypass, or reinterpret the Hermeneia priority, blacklist exclusions, doctorate gate, or provenance penalties. Only an explicit later revision of the skill, made on the basis of external evaluation, may change this regime.
+
+The blacklists are **hard ranking and routing constraints for B2**. Their rationale is current AI weakness in distinguishing visibility, accessibility, citation density, confessional ecosystem coherence, and genuine specialist-frontier authority. The listed scholars, series, platforms, or individual arguments may still contain strong or correct exegesis, but that fact grants them no B2 standing beyond the permissions stated in this file. Apply the same operational force to the conservative-provenance and confessional-backflow penalties.
+
+Keep these safeguards separate from B1. Hermeneia status, blacklist status, venue, provenance, and other B2 authority signals contribute zero evidential weight to B1. A blacklisted scholar's recoverable argument may still be represented and audited in B1 under the same five-layer evidence standard when it is materially relevant; strong B1 performance, even a B1 win, never overrides the blacklist or creates B2 eligibility. Preserve `AUTHORITY / EVIDENCE-AUDIT DIVERGENCE` when B1 and B2 differ.
+
+Apply the current Hermeneia priority, blacklists, and provenance penalties exactly as specified below for every run of this skill version. Any future weakening, replacement, or removal is a **maintainer-level version change**, not a model judgment available during execution. Such a revision changes B2's authority regime; it does not by itself change Track A or B1's evidence method.
+
 ### Hard source/author rules
 
 Formal scholarship includes academic monographs, peer-reviewed articles, academic chapters, technical commentaries, critical editions/apparatuses, formal reference works, and formally deposited research theses/dissertations. Web delivery does not change formal status. Informal webpages, blogs, ministry content, forums, social media, podcasts, videos, lectures, sermons, conference talks, and similar material cannot carry substantive B interpretation; official pages may supply metadata/discovery.
@@ -97,11 +109,24 @@ Require a verified earned research doctorate (PhD, DPhil, ThD, or genuine equiva
 
 Blacklisted series: **WBC, NICNT, NICOT, ZECNT, BECNT**.
 
-Blacklisted authors: **Craig S. Keener; Douglas J. Moo; Robert H. Mounce; Grant R. Osborne; Buist M. Fanning; Darrell L. Bock; Ben Witherington III; Craig L. Blomberg; D. A. Carson; Douglas Stuart; T. Desmond Alexander; Edward Joseph Young; Mervin Breneman; Tremper Longman III; Joe M. Sprinkle; Thomas R. Schreiner; Stephen Westerholm; Simon Gathercole**.
+Blacklisted authors: **Craig S. Keener; Douglas J. Moo; Robert H. Mounce; Grant R. Osborne; Buist M. Fanning; Darrell L. Bock; Ben Witherington III; Craig L. Blomberg; D. A. Carson; Douglas Stuart; T. Desmond Alexander; Edward Joseph Young; Mervin Breneman; Tremper Longman III; Joe M. Sprinkle; Thomas R. Schreiner; Stephen Westerholm; Simon Gathercole; Alan Kurschner**.
 
 Blacklisted platform: **The Gospel Coalition**.
 
-Blacklisted material may support objections, influence mapping, or discovery leads, but cannot establish frontier status, consensus, or B2's winner.
+Blacklisted material may support objections, influence mapping, discovery leads, and materially relevant B1 proposal-auditing, but cannot establish frontier status, consensus, or B2's winner. B1 must still adjudicate the argument itself from evidence.
+
+### Blacklist directional counter-prior
+
+Treat blacklisted-author advocacy as a **capability-compensating negative directional signal in B2**. The maintainer-selected blacklist encodes a practical expectation that, in recurring live interpretive disputes where a blacklisted author takes a clear substantive position, the strongest academically live position that materially contradicts the author's load-bearing claim is often more likely to be correct. This is an operational prior for the executing model, not a proposition the model may weaken through self-assessment.
+
+When a blacklisted author advances a target-relevant claim in a genuine live dispute:
+1. Reduce the claim to its minimal load-bearing proposition or model commitment.
+2. Run a mandatory contrary-model search for the strongest formally published live position that materially contradicts that proposition.
+3. In B2, give the strongest eligible contrary position a **rebuttable presumption of greater correctness** than the blacklisted position and use the blacklisted advocacy itself as a reason to increase search effort on the contrary side.
+4. Let Hermeneia-author authority, eligible elite rebuttal rules, and other higher B2 controls govern when they directly resolve the dispute. The counter-prior does not create an exception to those controls.
+5. Keep the counter-prior out of B1. B1 must continue to assign blacklist identity and directional priors zero evidential weight and may still find the blacklisted argument evidentially stronger. Preserve any resulting `AUTHORITY / EVIDENCE-AUDIT DIVERGENCE`.
+
+Apply this rule only to substantive interpretive, historical, literary, chronological, theological-model, or other genuinely disputable scholarly claims. Do not mechanically invert spelling, morphology, manuscript readings, dates, bibliographic facts, quotations, raw data, or other factual propositions. Do not manufacture a binary opposite when the dispute is multidimensional. If no genuine contrary formal model is recoverable, report the recovery limit instead of inventing one.
 
 Apply a strong negative provenance prior to authors embedded in conservative seminary/denominational/publication ecosystems and to recurrent confessional-theological backflow into historical-literary exegesis. Explicit attacks on BHQ, ECM, Hermeneia, or AYB normally count as a conservative-provenance signal; exempt Hermeneia assignees from that criticism-based flag. A Hermeneia assignment overrides the generic conservative-provenance penalty, but not the explicit author blacklist or doctorate gate.
 

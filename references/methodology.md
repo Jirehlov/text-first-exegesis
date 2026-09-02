@@ -43,15 +43,25 @@ Formal scholarship includes monographs, peer-reviewed articles, academic chapter
 
 ## 5. Hermeneia policy
 
+Treat the Hermeneia prior as **externally capability-contingent and internally mandatory**. It is a pragmatic safeguard chosen by the skill maintainer because current AI systems do not reliably reconstruct the frontier census, citation networks, or scholarly-authority hierarchy. The capability judgment is made outside runtime. The executing model must treat the Hermeneia rule as fixed and may not relax it because it feels confident, retrieves many sources, believes the census is complete, judges its reasoning superior, or infers that newer model capabilities have solved the underlying problem. Only an explicit versioned revision based on external evaluation may alter the prior. Hermeneia status is not a claim of intrinsic or permanent correctness; B1 remains independent and evidence-only so disagreement remains visible.
+
 The authority prior attaches to the current target-book Hermeneia assignee's relevant formal scholarly corpus. When the author's view develops, the newest recoverable target-relevant formal statement represents the current position.
 
 In B2, that position is controlling unless an eligible elite source - Hermeneia, AYB, JBL, WUNT, FAT, or a clearly comparable top specialist venue/reference work - makes an explicit reasoned challenge to the target claim or decisive inference and argues for rejection, replacement, or material restriction.
 
 Ordinary disagreement does not acquire rebuttal standing by quantity, recency, or B1 strength. Under an incomplete census, only an already recovered elite explicit challenge can open a provisional B2 challenge.
 
-## 6. Provenance policy
+When future model and retrieval capabilities can independently establish a sufficiently complete frontier census and adjudicate scholarly authority with demonstrated reliability, revise this B2 authority regime as needed. Such revision should leave A and B1 intact unless separate evidence warrants changing those methods.
 
-B2 applies the project's doctorate gate, explicit blacklists, conservative-provenance penalty (including the criticism-based BHQ/ECM/Hermeneia/AYB signal, with the Hermeneia-assignee exemption), confessional-backflow penalty, and ordinary modernity/revision prior. These are declared meta-epistemic preferences, not textual/literary/historical evidence.
+## 6. Provenance and blacklist policy
+
+B2 applies the project's doctorate gate, explicit blacklists, conservative-provenance penalty (including the criticism-based BHQ/ECM/Hermeneia/AYB signal, with the Hermeneia-assignee exemption), confessional-backflow penalty, and ordinary modernity/revision prior. Treat the blacklists and provenance penalties, like the Hermeneia prior, as **externally capability-contingent and internally mandatory AI safeguards**. Their design rationale is the current model class's weak ability to distinguish digital visibility, accessibility, citation density, coherent confessional publication ecosystems, and genuine specialist-frontier authority.
+
+Runtime self-assessment is inadmissible for changing these controls. The executing model may not infer from confidence, search saturation, source quantity, citation-network reconstruction, apparent expertise, or a B1 result that blacklist or provenance rules can be softened. Blacklists remain hard B2 eligibility constraints exactly as written, and provenance penalties remain mandatory ranking controls exactly as written. A blacklisted source's strong argument may be recovered for B1, objections, or discovery only where this protocol permits; strong B1 performance never restores prohibited B2 authority.
+
+The blacklist also carries a **directional counter-prior** in B2. For a blacklisted author's clear target-relevant position in a genuine live dispute, treat the author's advocacy as a negative directional signal: identify the minimal load-bearing claim, search deliberately for the strongest live contrary model, and give that eligible contrary position a rebuttable presumption of greater correctness unless Hermeneia or another higher B2 control resolves the question. This is a maintainer-imposed capability compensation for current AI weakness, not a runtime inference from the author's identity alone. The prior applies to disputable scholarly positions, not to raw factual propositions, and it contributes zero weight to B1.
+
+These controls are meta-epistemic B2 rules rather than textual/literary/historical evidence. A future maintainer may revise them only through an explicit skill-version change grounded in external evaluation of model and retrieval capability. The executing model has no such revision authority. Preserve A and B1 unless a separate versioned methodological decision changes them.
 
 ## 7. Output logic
 
