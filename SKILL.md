@@ -38,7 +38,7 @@ Freeze A before consulting modern secondary scholarship.
 - Use the target book's NA/ECM initial text; prefer ECM where available.
 - Treat material judged secondary/post-compositional as textual/transmission history, not part of the Layer 2 literary object.
 
-For Layer 2, the whole locked book is the synchronic literary object; the target passage is a window into it. Read `references/literary-analysis.md` before Layer 2.
+For Layer 2, the whole locked book is the synchronic literary object; the target passage is a window into it. Read `references/literary-analysis.md` before Layer 2. Layer 2 has no genre-neutral natural-reading prior: genre and whole-book structure establish the representational default within which local grammar and lexical sense are interpreted.
 
 ## Track A - AI diagnostic reconstruction
 

@@ -29,6 +29,8 @@ Within Layer 2 use:
 
 **genre > whole-book macrostructure > unit relation > local discourse/form > syntax/lexeme**
 
+Layer 2 rejects a genre-neutral natural-reading prior. Local grammar and ordinary lexical sense generate candidates; genre and whole-book structure determine which representational relations count as natural for this work. Narrative succession may carry prima facie chronological force when the book normally uses it that way. Visionary, symbolic, poetic, prophetic, parabolic, and heavily rhetorical succession first establishes presentation order, with event chronology or literal ontology requiring additional same-object warrant.
+
 Keep discourse order, internal unit chronology, unit opening/endpoint horizons, represented event order, and logical order distinct. Local sequence needs positive whole-book warrant before it controls event chronology. Intertexts belong to the historical layer and cannot substitute for target-book literary evidence.
 
 ## 4. Track B research discipline

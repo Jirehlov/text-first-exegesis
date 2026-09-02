@@ -77,7 +77,7 @@ For each major proposal recover:
 
 For word-level questions, separate lexical sense from contextual referent/function and from neighboring clauses used to constrain the reading.
 
-For structure/chronology disputes, recover the proposal's whole-book structural case and audit it with `literary-analysis.md` before B1 ranks it.
+For structure/chronology disputes, recover the proposal's whole-book structural case and audit it with `literary-analysis.md` before B1 ranks it. B1 must use the genre-conditioned representational default from that protocol; local surface directness is not an independent prior.
 
 ## 5. B1 - evidence audit
 
